@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/HawkApp
+
+server:
+  port : 8082
+
+myapp:
+  jwt:
+    secret-key: ${JWT_SECRET_KEY:"vtalQ7iVQPpj3NTn3Bm6ShhV3YKcDHecKaeIgz8QRwk6N06BUj0wf+JpS1NFlXq5cNM0UAABNtvCXMPXiGKxZw=="}
+    expiration-time: ${JWT_EXPIRATION_TIME:86400000}
