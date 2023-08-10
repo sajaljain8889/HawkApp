@@ -1,33 +1,50 @@
-HELP.md
-target/
+# Spring Boot specific
+/target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Maven specific
+mvnw
+mvnw.cmd
+.mvn/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IDE specific
+.idea/
 *.iml
 *.ipr
+*.iws
+*.ids
+*.idx
+.idea_modules/
+*.classpath
+*.project
+*.settings/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Logs
+logs/
+*.log
 
-### VS Code ###
-.vscode/
+# Compiled Java classes
+*.class
+
+# Compiled Object files, Static and Shared libraries (Windows)
+*.o
+*.a
+*.lib
+*.dll
+
+# Temporary files
+*.swp
+*~
+*.bak
+*.tmp
+
+# Windows thumbnail cache
+Thumbs.db
+
+# macOS thumbnail cache
+._*
+
+# Gradle wrapper files
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+
